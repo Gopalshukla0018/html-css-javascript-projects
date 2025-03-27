@@ -13,7 +13,7 @@ const showtime = () => {
   let milisecs = date.getMilliseconds();
   hr = hr % 12 || 12;
 
-  if ( date.getHours()>= 12) timeformat.innerText = "pm";
+  if (date.getHours()>= 12) timeformat.innerText = "pm";
   else timeformat.innerText = "am";
 
   if (hr < 10) hr = "0" + hr;
