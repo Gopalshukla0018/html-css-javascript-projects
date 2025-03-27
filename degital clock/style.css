@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1:")no-repeat;
+    background-size: cover;
+   
+}
+
+.clock{
+ 
+width: 100%;
+max-width: 380px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.clock span{
+    position: relative;
+    top:-13px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+
+
+
